@@ -41,7 +41,7 @@ function draw() {
       textAlign(CENTER,CENTER);
       // const charindex=floor(map(avg,0,255,order.length-1,0));
       textSize(h);
-      text(sagan.charAt(charindex % sagan.length), i * w + w * 0.5, j * h + h * 0.5)
+      text(sagan.charAt(charindex % sagan.length), 405+i * w + w * 0.5, j * h + h * 0.5)
       charindex++;
     }
   }
